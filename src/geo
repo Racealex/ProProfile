@@ -1,0 +1,45 @@
+import React, {useState, useEffect} from     "react"
+
+
+const App =() => {
+  const [counter, setCounter] = useState(0)
+  const [count, setCount] = useState(0)
+  const [viewer, setViewer] = useState(0)
+
+  // const viewer = 2
+  // const counter = 2
+
+  useEffect(()=>{
+console.log("My new Code")
+     setInterval(()=>{
+       setCount(el => el + 1)
+     }, 1000)
+  }, [])
+
+  return(<div
+  style={{
+    width: "100%",
+    backgroundColor: "black",
+    height:"100vh",
+    color: "blue",
+    frontSize: "50px",
+    display: "flex",
+    justifyItems: "center",
+    alignItems: "center",
+    flexDirection: "column"
+  }}
+  >
+    <div>Hello Race</div>
+    <div>{counter}</div>
+    <div>{viewer}</div>
+    <div>{count%10}</div>
+    <button
+    onClick={() => {
+      setCounter(counter + 1)
+      setViewer(viewer + 2)
+    }}
+    >Press Me</button>
+  </div>)
+}
+
+export default  App

@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+img {
+   object-fit: cover;
+   position: absolute;
+   z-index: 1;
+}
+
+#watch{
+    position: absolute;
+    width: min-content;
+    padding: 100px;
+    z-index: 3;
+}
+
+P{
+    font-size: 50px;
+    text-align: center;
+ }
+ #name{
+    margin-bottom: 50%;
+ }
+    
+ #hr,
+ #min,
+ #sec{
+     font-size: 80px;
+ }
+ 
+ #btn {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: cenetr;
+ }
+ button{
+     font-weight: 600;
+     font-size: 17px;
+     width: 100px;
+     height: 50px;
+     color: brown;
+     background: cadetblue;
+     border: chartreuse;
+     box-shadow: darkcyan;
+     border-radius: 5px;
+     margin-top: 50px;
+     letter-spacing: 2px;
+     outline: none;
+ }
+ button:hover{
+     background: transparent;
+     color:yellowgreen;
+     font-weight: 700;
+     
+
