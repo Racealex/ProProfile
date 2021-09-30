@@ -84,7 +84,7 @@ const WorkHome = () => {
   return (
     <div className ="container">
       <div className="container_input">
-        <img className="container inputImage"src={image} />
+        <img className="container inputImage" src={image} />
         <div className="container_inputsFile">
           <input
             type="file"

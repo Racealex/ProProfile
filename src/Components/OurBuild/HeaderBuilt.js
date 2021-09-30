@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import img from "../img/desktop-icon.svg";
+import img from "./img/desktop-icon.svg";
 
 export const HeaderBuilt = () => {
   return (

@@ -3,8 +3,7 @@ import React from 'react'
 import "antd/dist/antd.css";
 import WorkHome from './Components/WorkHome'
 //import GameScreen from './Components/SimpleGame/GameScreen.js'
-//import GithubApp from './Components/OurBuild/GithubApp.js'
-// import RaceScreen from './Components/OurBuild/RaceScreen';
+//import RaceScreen from './Components/OurBuild/RaceScreen';
 
 // import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 // import {DommyScreen, DommyHome, DommySetting} from './Components/TestComp/DommyScreen'

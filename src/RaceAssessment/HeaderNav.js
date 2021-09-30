@@ -11,6 +11,7 @@ const HeaderNav = () => {
                     <Nav to="/">Home</Nav>                   
                     <Nav to="/workhome">WorkHome</Nav>
                     <Nav to="/homescreen">Homescreen</Nav>
+                    <Nav to="/gamescreen">GameScreen</Nav>
                 </Navigation>
             </Wrapper>
         </Container>
@@ -18,7 +19,7 @@ const HeaderNav = () => {
 }
 
 export default HeaderNav
-const Logo = styled.div`
+const Logo = styled.img`
 width:200px;
 height:50px;
 background:blue;

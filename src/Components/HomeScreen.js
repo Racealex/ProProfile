@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import { BiLeftArrow, BiRightArrow } from "react-icons/bi"
 import "./HomeScreen.css";
 
-import img1 from "../img/1.jpg";
-import img2 from "../img/2.jpg";
-import img3 from "../img/3.jpg";
-import img4 from "../img/4.jpg";
+import img1 from "./Image/1.jpg"
+import img2 from "./img/2.jpg"
+import img3 from "./img/3.jpg"
+import img4 from "./img/4.jpg"
 
 const HomeScreen = () => {
   const [statement1, setStatement1] = useState([
