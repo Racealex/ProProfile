@@ -12,6 +12,8 @@ const HeaderNav = () => {
                     <Nav to="/workhome">WorkHome</Nav>
                     <Nav to="/homescreen">Homescreen</Nav>
                     <Nav to="/gamescreen">GameScreen</Nav>
+                    <Nav to="/racescreen">Racescreen</Nav>
+
                 </Navigation>
             </Wrapper>
         </Container>

@@ -7,6 +7,7 @@ import WorkHome from './WorkHome'
 import Homepage from './homepage'
 import HomeScreen from './HomeScreen'
 import GameScreen from './SimpleGame/GameScreen'
+import Racescreen from './OurBuild/RaceScreen'
 
 const Mother = () =>{
     return (
@@ -18,6 +19,8 @@ const Mother = () =>{
                     <Route path="/homescreen" exact component={HomeScreen}></Route>
                     <Route path="/workhome" exact component={WorkHome}></Route>
                     <Route path="/gamescreen" exact component={GameScreen}></Route>
+                    <Route path="/racescreen" exact component={Racescreen}></Route>
+
                 </Switch>
             </Router>
 

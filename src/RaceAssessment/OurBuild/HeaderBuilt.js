@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import img from "./img/desktop-icon.svg";
+import img from "../img/desktop-icon.svg"
 
 export const HeaderBuilt = () => {
   return (
@@ -29,7 +29,7 @@ const Image = styled.img`
   width: 150px;
   height: 150px;
   border-radius: 150px;
-  background-color: Black;
+  
   object-fit: cover; 
   margin-bottom: 30px;
   cursor: pointer;

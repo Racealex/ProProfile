@@ -43,7 +43,7 @@ const WorkHome = () => {
       avatar: img3,
     }
   ]);
-  const [image, setImage] = useState(img);
+  const [image, setImage] = useState("");
   const [name, setName] = useState("");
   const [myMind, setMyMind] = useState("");
 

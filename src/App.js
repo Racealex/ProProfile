@@ -15,7 +15,7 @@ import Mother from './RaceAssessment/Mother'
 const App = () => {
     return ( 
       <div>
-<Mother />
+      <Mother />
       </div>
       // <div>
       //   <PortFolio/>
