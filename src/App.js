@@ -10,12 +10,13 @@ import WorkHome from './Components/WorkHome'
 // import HeaderNav from './Components/TestComp/HeaderNav';
 // import ProjectRace from './Components/NewProject/ProjectRace';
 // import PortFolio from './Components/HeaderBar/PortFolio';
+import Main from './ProProfile/Main'
 
 import Mother from './RaceAssessment/Mother'
 const App = () => {
     return ( 
       <div>
-      <Mother />
+      <Main/>
       </div>
       // <div>
       //   <PortFolio/>

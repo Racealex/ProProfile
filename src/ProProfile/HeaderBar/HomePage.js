@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
-import {PortFolio}from './PortFolio';
+import PortFolio from './PortFolio'
 
 
-export const HomePage = () => {
+ const HomePage = () => {
     return (
       <Container>
       <Wrapper>
@@ -12,6 +12,8 @@ export const HomePage = () => {
       </Container>
     );
 };
+
+export default HomePage;
 
 const Container = styled.div``;
 const Wrapper = styled.div``;

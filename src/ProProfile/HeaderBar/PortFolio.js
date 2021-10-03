@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components';
 import HomeIcon from '@mui/icons-material/Home';
-import PersonIcon from '@mui/icons-material/Person';
-import SettingsIcon from '@mui/icons-material/Settings';
-import logo from "./images.jpg";
+import HomeRepairServiceIcon from '@mui/icons-material/HomeRepairService';
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
+import logo from '../logoimg.jpg'
 
 const PortFolio = () => {
     return (
@@ -16,12 +17,16 @@ const PortFolio = () => {
               <span>Home</span>
             </Nav>
             <Nav>
-              <PersonIcon />
-              <span>Profile</span>
+              <HomeRepairServiceIcon />
+              <span>Service</span>
             </Nav>
             <Nav>
-              <SettingsIcon />
-              <span>Settings</span>
+              <OndemandVideoIcon />
+              <span>Video</span>
+            </Nav>
+            <Nav>
+              <ContactPageIcon />
+              <span>Contact</span>
             </Nav>
           </Navigation>
         </Wrapper>
@@ -96,9 +101,10 @@ const Wrapper = styled.div`
 
 const Logo = styled.img`
   width: 160px;
-  height: 50px;
+  height: 70px;
   object-fit: contain;
-  margin: 0 30px;
+  margin: 0 10px;
+  padding-top: 10px;
 `;
 
 const Navigation = styled.div`

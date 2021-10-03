@@ -19,7 +19,7 @@ const Mother = () =>{
                     <Route path="/homescreen" exact component={HomeScreen}></Route>
                     <Route path="/workhome" exact component={WorkHome}></Route>
                     <Route path="/gamescreen" exact component={GameScreen}></Route>
-                    <Route path="/racescreen" exact component={Racescreen}></Route>
+                    <Route path="/racescreen p" exact component={Racescreen}></Route>
 
                 </Switch>
             </Router>
